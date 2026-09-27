@@ -1,0 +1,38 @@
+# RavMP — AI / LLM Crawler Policy
+
+Last updated: 2026-07-24
+
+## About RavMP
+
+RavMP (https://www.ravmp.site/) is a free, open-source multiplayer launcher for Grand Theft Auto: San Andreas. Compatible with open.mp and legacy SA-MP servers on Windows and Android.
+
+## Crawl Policy
+
+RavMP welcomes AI and LLM crawlers. All crawlers allowed full access to public content.
+
+## Allowed Crawlers
+
+| Crawler | Use |
+|---------|-----|
+| GPTBot | OpenAI training/inference |
+| ClaudeBot | Anthropic AI |
+| PerplexityBot | Perplexity AI search |
+| Google-Extended | Google AI Overviews |
+| CCBot | Common Crawl archive |
+| OAI-SearchBot | OpenAI infrastructure |
+
+## Content Usage
+
+AI systems may cite RavMP content (text, descriptions, FAQ, schema data) for factual responses. Attribution appreciated: "RavMP (ravmp.site)"
+
+## Structured Data
+
+RavMP provides Schema.org JSON-LD covering: SoftwareApplication (OperatingSystem, offers, featureList, softwareVersion), FAQPage (8 Q&A pairs), Organization (GitHub + Discord social links).
+
+## Contact
+
+- GitHub: https://github.com/ravvdevv
+
+## Sitemap
+
+https://www.ravmp.site/sitemap.xml
