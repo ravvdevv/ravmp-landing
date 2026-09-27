@@ -20,16 +20,12 @@
           "value": "nosniff"
         },
         {
-          "key": "X-Frame-Options",
-          "value": "DENY"
-        },
-        {
           "key": "Referrer-Policy",
           "value": "strict-origin-when-cross-origin"
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://ravmp.site https://cdn.discord.com data:; connect-src https://www.google-analytics.com https://www.googletagmanager.com; frame-ancestors 'none'; base-uri 'self';"
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://ravmp.site https://cdn.discord.com data:; connect-src https://www.google-analytics.com https://www.googletagmanager.com; frame-ancestors https://raven-mac.vercel.app https://ravvdevv.github.io http://localhost:5173 http://127.0.0.1:5173; base-uri 'self';"
         },
         {
           "key": "Cache-Control",
