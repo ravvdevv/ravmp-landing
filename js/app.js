@@ -278,7 +278,7 @@
           <div class="download-card-name">${d.name}</div>
           <div class="download-card-meta">${d.meta}${d.date ? ` • Released ${d.date}` : ''}</div>
         </div>
-        <div style="display: flex; gap: 8px;">
+        <div class="download-options">
           ${d.options.map(opt => `<a href="${opt.href}" class="download-btn" style="text-decoration: none;" onclick="window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'download',platform:'${d.platform}',type:'${opt.label}'});">${opt.label}</a>`).join('')}
         </div>
       </div>`
