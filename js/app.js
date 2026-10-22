@@ -108,11 +108,11 @@
       {
         platform: 'Android',
         name: `RavMP for Android v${ANDROID_VERSION}`,
-        meta: 'ARM64 & ARMv7 Support',
+        meta: 'Most phones use the first option. Older 32-bit phones may need the second.',
         date: 'October 2026',
         options: [
-          { label: 'ARM64', href: androidAsset('RavMP-arm64-v8a.apk') },
-          { label: 'ARMv7', href: androidAsset('RavMP-armeabi-v7a.apk') }
+          { label: 'Most phones', href: androidAsset('RavMP-arm64-v8a.apk') },
+          { label: 'Older phones', href: androidAsset('RavMP-armeabi-v7a.apk') }
         ]
       }
     ],
