@@ -1,7 +1,1 @@
-{
-  "versionCode": 157,
-  "versionName": "2.0.9",
-  "downloadUrlArm64": "https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.9/RavMP-arm64-v8a.apk",
-  "downloadUrlArmv7": "https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.9/RavMP-armeabi-v7a.apk",
-  "notes": "RavMP Mobile 2.0.9."
-}
+{"versionCode":158,"versionName":"2.0.10","downloadUrlArm64":"https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.10/RavMP-arm64-v8a.apk","downloadUrlArmv7":"https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.10/RavMP-armeabi-v7a.apk","notes":"RavMP Mobile 2.0.10."}
