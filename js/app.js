@@ -1,6 +1,6 @@
 (function () {
   const VERSION = '1.6.5';
-  const ANDROID_VERSION = '2.0.9';
+  const ANDROID_VERSION = '2.0.10';
   const RELEASES_BASE = 'https://github.com/ravvdevv/ravmp-landing/releases/download';
   const releaseAsset = (tag, file) => `${RELEASES_BASE}/${tag}/${file}`;
   const windowsAsset = (version, file) => releaseAsset(`v${version}`, `RavMP_${version}_${file}`);
@@ -107,9 +107,9 @@
       },
       {
         platform: 'Android',
-        name: 'RavMP for Android',
+        name: `RavMP for Android v${ANDROID_VERSION}`,
         meta: 'ARM64 & ARMv7 Support',
-        date: 'May 2026',
+        date: 'October 2026',
         options: [
           { label: 'ARM64', href: androidAsset('RavMP-arm64-v8a.apk') },
           { label: 'ARMv7', href: androidAsset('RavMP-armeabi-v7a.apk') }
