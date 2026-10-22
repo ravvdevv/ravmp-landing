@@ -3,6 +3,16 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/bin/RavMP-arm64-v8a.apk",
+      "destination": "https://github.com/ravvdevv/ravmp-landing/releases/latest/download/RavMP-arm64-v8a.apk",
+      "permanent": false
+    },
+    {
+      "source": "/bin/RavMP-armeabi-v7a.apk",
+      "destination": "https://github.com/ravvdevv/ravmp-landing/releases/latest/download/RavMP-armeabi-v7a.apk",
+      "permanent": false
+    },
+    {
       "source": "/discord",
       "destination": "https://discord.gg/2t3RzB5vR5"
     },
