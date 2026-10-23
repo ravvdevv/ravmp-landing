@@ -1,6 +1,6 @@
 (function () {
   const VERSION = '1.6.5';
-  const ANDROID_VERSION = '2.0.11';
+  const ANDROID_VERSION = '2.0.12';
   const RELEASES_BASE = 'https://github.com/ravvdevv/ravmp-landing/releases/download';
   const releaseAsset = (tag, file) => `${RELEASES_BASE}/${tag}/${file}`;
   const windowsAsset = (version, file) => releaseAsset(`v${version}`, `RavMP_${version}_${file}`);
