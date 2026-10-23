@@ -1,1 +1,7 @@
-{"versionCode":159,"versionName":"2.0.11","downloadUrlArm64":"https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.11/RavMP-arm64-v8a.apk","downloadUrlArmv7":"https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.11/RavMP-armeabi-v7a.apk","notes":"RavMP Mobile 2.0.11 fixes a repeated update prompt by using the correct ABI-specific release APK URLs."}
+{
+  "versionCode": 160,
+  "versionName": "2.0.12",
+  "downloadUrlArm64": "https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.12/RavMP-arm64-v8a.apk",
+  "downloadUrlArmv7": "https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.12/RavMP-armeabi-v7a.apk",
+  "notes": "RavMP Mobile v2.0.12 debug builds for testing only. Includes more readable player tags, larger health and armor bars, improved spacing, and hides tags when line of sight is obstructed. These APKs use the debug signing key and are not production release builds."
+}
