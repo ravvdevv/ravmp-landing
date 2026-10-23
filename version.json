@@ -1,7 +1,7 @@
 {
-  "versionCode": 159,
-  "versionName": "2.0.11",
-  "downloadUrlArm64": "https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.11/RavMP-arm64-v8a.apk",
-  "downloadUrlArmv7": "https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.11/RavMP-armeabi-v7a.apk",
-  "notes": "RavMP Mobile 2.0.11 fixes a repeated update prompt by using the correct ABI-specific release APK URLs. Production downloads remain on this verified release while the signing identity for newer builds is confirmed."
+  "versionCode": 160,
+  "versionName": "2.0.12",
+  "downloadUrlArm64": "https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.12/RavMP-arm64-v8a.apk",
+  "downloadUrlArmv7": "https://github.com/ravvdevv/ravmp-landing/releases/download/v2.0.12/RavMP-armeabi-v7a.apk",
+  "notes": "RavMP Mobile 2.0.12 improves player name and ID readability and enlarges health and armor bars. This release uses a new signing identity for fresh installs; existing installs signed with the previous certificate may need a clean install."
 }
